@@ -1,29 +1,27 @@
 import React from "react";
 import Coschedule from "../assests/Portfolio/Coschedule.png";
-import Dice from "../assests/Portfolio/Dice.jpeg";
-import Fiverr from "../assests/Portfolio/Fiverr.png";
-import weather from "../assests/Portfolio/weather.jpeg";
+import Fitnessblender from "../assests/Portfolio/Fitnessblender.png";
+import Uboric from "../assests/Portfolio/Uboric.png";
 
 export const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
       src: Coschedule,
-      glink:
-        "https://github.com/Vivek-bhatt05/coschedule.com/tree/master/fun-note-365-main",
+      glink: "https://github.com/anirudha2097/fun-note-365",
       nlink: "https://heroic-alfajores-0820ff.netlify.app/",
     },
     {
       id: 2,
-      src: Dice,
-      glink: "https://github.com/Vivek-bhatt05/Dice-game",
-      nlink: "https://papaya-crumble-3de9b5.netlify.app/",
+      src: Fitnessblender,
+      glink: "https://github.com/Suneet25/loyal-elbow-6166",
+      nlink: "https://venerable-bubblegum-24be2e.netlify.app/",
     },
     {
       id: 3,
-      src: Fiverr,
-      glink: "https://github.com/Vivek-bhatt05/green-office-8741",
-      nlink: "https://rainbow-mousse-e54d86.netlify.app/",
+      src: Uboric,
+      glink: "https://github.com/Suneet25/resolute-mountain-5021",
+      nlink: "https://statuesque-jelly-f8f754.netlify.app/",
     },
   ];
 

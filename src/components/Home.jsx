@@ -15,13 +15,7 @@ export const Home = () => {
             I'm a Full Stack Developer
           </h2>
 
-          <p className="text-gray-300 py-4 max-w-md">
-            A passionate Full-Stack Web Developer, a knack for stunning designs,
-            a heart for social causes, who aims to expand his knowledge on niche
-            technologies working for a progressive organization and contributing
-            towards its growth.
-          </p>
-          <div>
+          <div style={{ marginTop: "30px" }}>
             <Link
               to="portfolio"
               smooth
@@ -41,7 +35,7 @@ export const Home = () => {
             src="https://avatars.githubusercontent.com/u/107473938?v=4"
             alt="my profile"
             className="rounded-2xl mx-auto w-1/3 md:w-1/3 "
-            style={{ width: "200px", height: "200px", marginLeft: "50px" }}
+            style={{ width: "300px", height: "300px" }}
           />
         </div>
       </div>
