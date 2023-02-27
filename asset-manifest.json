@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.a70c6963.css",
-    "main.js": "/static/js/main.f91f99db.js",
+    "main.css": "/static/css/main.9351596c.css",
+    "main.js": "/static/js/main.2c21f43f.js",
     "static/media/Zoomcar.png": "/static/media/Zoomcar.844b989da1d73aa748fe.png",
-    "static/media/Uboric.png": "/static/media/Uboric.33a62dcd0c9330c373df.png",
+    "static/media/1800Flowers.png": "/static/media/1800Flowers.3728bb58dad28455dba9.png",
     "static/media/Fitnessblender.png": "/static/media/Fitnessblender.15dfd5c7501bf822ce46.png",
     "static/media/Coschedule.png": "/static/media/Coschedule.32f30645ab8c86da88bd.png",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
@@ -13,11 +13,11 @@
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.a70c6963.css.map": "/static/css/main.a70c6963.css.map",
-    "main.f91f99db.js.map": "/static/js/main.f91f99db.js.map"
+    "main.9351596c.css.map": "/static/css/main.9351596c.css.map",
+    "main.2c21f43f.js.map": "/static/js/main.2c21f43f.js.map"
   },
   "entrypoints": [
-    "static/css/main.a70c6963.css",
-    "static/js/main.f91f99db.js"
+    "static/css/main.9351596c.css",
+    "static/js/main.2c21f43f.js"
   ]
 }
