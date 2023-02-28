@@ -1,17 +1,27 @@
 import React from "react";
-
+import { SocialLinks } from "./SocialLinks";
+import style from "../styles/Contact.module.css";
 export const Contact = () => {
   return (
     <div
       name="contact"
-      style={{ marginTop: "100px", textAlign: "center" }}
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black p-4 text-white"
+      style={{ textAlign: "center", marginTop: "30px" }}
+      className="w-full h-screen bg-white p-4 text-black"
     >
       <div className="flex flex-col justify-center p-4 max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Contact
+            Contact me:-
           </p>
+
+          <p className="py-2 font-bold">My number :- +91 8455968071</p>
+          <p className="py-1 font-bold">
+            My EmailId :- suneetpanigrahi53@gmail.com
+          </p>
+          <div className={style.contactSocial}>
+            <SocialLinks />
+          </div>
+
           <p className="py-6">Submit the form below to get in touch</p>
         </div>
 
@@ -25,19 +35,19 @@ export const Contact = () => {
               type="text"
               name="name"
               placeholder="Enter Your Name"
-              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              className="p-2 bg-transparent border-2 rounded-md text-black focus:outline-none"
             />
             <input
               type="email"
               name="email"
               placeholder="Enter Your Email"
-              className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              className="my-4 p-2 bg-transparent border-2 rounded-md text-black focus:outline-none"
             />
             <textarea
               name="message"
               placeholder="Enter Your Message"
-              rows="10"
-              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              rows="5"
+              className="p-2 bg-transparent border-2 rounded-md text-black focus:outline-none"
             ></textarea>
             <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md duration-300 hover:scale-125">
               Let's Talk

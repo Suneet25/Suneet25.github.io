@@ -11,6 +11,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.whole{
+    color: #fff;
+}
+
+
+
+
 @layer base{
     html{
         font-Family:'Raleway', sans-serif;

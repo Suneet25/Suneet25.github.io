@@ -7,74 +7,70 @@ import react from "../assests/react.png";
 import github from "../assests/github.png";
 import redux from "../assests/redux.png";
 import tailwind from "../assests/tailwind.png";
+import nextjs from "../assests/nextjs.png";
+import git from "../assests/git.png";
+import postman from "../assests/postman.png";
+import mongodb from "../assests/mongodb.png";
+import mongoose from "../assests/mongoose.png";
+import express from "../assests/expressjs.png";
+import nodejs from "../assests/nodejs.png";
 
-export const Experience = () => {
-  const techs = [
+export const Tools = () => {
+  let tools = [
     {
       id: 1,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
+      src: github,
+      title: "Github",
+      style: "shadow-black-600",
     },
     {
       id: 2,
-      src: css,
-      title: "CSS",
-      style: "shadow-blue-500",
+      src: postman,
+      title: "Postman",
+      style: "shadow-black-600",
     },
     {
       id: 3,
-      src: javascript,
-      title: "Java Script",
-      style: "shadow-yellow-500",
+      src: mongodb,
+      title: "MongoDB",
+      style: "shadow-black-600",
     },
     {
       id: 4,
-      src: react,
-      title: "React",
-      style: "shadow-blue-600",
+      src: nodejs,
+      title: "Nodejs",
+      style: "shadow-black-600",
     },
     {
       id: 5,
-      src: github,
-      title: "GitHub",
-      style: "shadow-gray-400",
+      src: express,
+      title: "Express",
+      style: "shadow-black-600",
     },
     {
       id: 6,
-      src: chakra,
-      title: "Chakra UI",
-      style: "shadow-teal-500",
-    },
-    {
-      id: 7,
-      src: redux,
-      title: "Redux",
-      style: "shadow-blue-500",
-    },
-    {
-      id: 8,
-      src: tailwind,
-      title: "TailWind",
-      style: "shadow-sky-400",
+      src: mongoose,
+      title: "Mongoose",
+      style: "shadow-black-600",
     },
   ];
 
   return (
     <div
-      name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full text-white md:h-screen"
+      name="tools"
+      className="bg-bg-#f4f5f6 w-full text-black md:h-screen"
+      style={{ marginTop: "50px", textAlign: "center" }}
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-10">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Skills
+            Tools
           </p>
-          <p className="py-6"> These are the technologies i have worked with</p>
+          <p className="py-6"> These are the tools i have worked with</p>
         </div>
 
-        <div className="w-full grid sm:grid-cols-2 md:grid-cols-4 gap-8 px-12 sm:px-0">
-          {techs.map(({ id, src, title, style }) => (
+        <div className="w-full grid  sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-8 px-12 sm:px-0">
+          {tools.map(({ id, src, title, style }) => (
             <div
               key={id}
               className={`shadow-md shadow-gray-600 rounded-lg ${style}`}
@@ -89,7 +85,7 @@ export const Experience = () => {
                 src={src}
                 alt=""
                 className="rounded-md duration-500 mx-auto hover:scale-105"
-                style={{ width: "100px", height: "100px" }}
+                style={{ width: "70px", height: "70px" }}
               />
               <p className="mt-4">{title}</p>
             </div>

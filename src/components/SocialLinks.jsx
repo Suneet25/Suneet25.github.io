@@ -9,7 +9,7 @@ export const SocialLinks = () => {
       id: 1,
       child: (
         <>
-          LinkedIn <FaLinkedin size={30} />
+          <FaLinkedin size={30} />
         </>
       ),
       href: "https://www.linkedin.com/in/suneetpanigrahi25/",
@@ -18,7 +18,7 @@ export const SocialLinks = () => {
       id: 2,
       child: (
         <>
-          GitHub <FaGithub size={30} />
+          <FaGithub size={30} />
         </>
       ),
       href: "https://github.com/Suneet25",
@@ -27,7 +27,7 @@ export const SocialLinks = () => {
       id: 3,
       child: (
         <>
-          Mail <HiOutlineMail size={30} />
+          <HiOutlineMail size={30} />
         </>
       ),
       href: " mailto:suneetpanigrahi53@gmail.com ",
@@ -36,25 +36,22 @@ export const SocialLinks = () => {
       id: 4,
       child: (
         <>
-          Resume <BsFillPersonLinesFill size={30} />
+          <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "https://drive.google.com/file/d/1FC36fgBRDgfGX_lHk08HVu3vDpJ_Ml2Y/view?usp=sharing",
+      href: "https://drive.google.com/file/d/1M9u3mP8xheq2SIvyBD72CRoa_iUWyU2J/view?usp=sharing",
       download: true,
     },
   ];
 
   return (
-    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
-      <ul>
+    <div className=" lg:flex flex-row ">
+      <ul style={{ display: "flex" }}>
         {links.map(({ id, child, href, download }) => (
-          <li
-            key={id}
-            className="flex justify-center w-40 h-14 px-4 bg-gray-500 ml-[-100px] hover:ml-[-10px] hover: rounded-md duration-500"
-          >
+          <li key={id} className="flex flex-row justify-center  h-14 px-4 ">
             <a
               href={href}
-              className="flex justify-between items-center w-full text-white"
+              className="flex  justify-between items-center w-full text-black"
               download={download}
               target="_blank"
               rel="noreferrer"

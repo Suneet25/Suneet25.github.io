@@ -1,0 +1,49 @@
+.Image{
+    width: 300px;
+     height: 300px ;
+     border-radius: 20px;
+
+}
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 1110px) {
+    .Image{
+        width: 300px;
+         height: 300px ;
+         border-radius: 50%;
+    
+    }
+    
+   
+  }
+  @media only screen and (min-width: 481px) and (max-width: 769px) {
+    .Image{
+        width: 200px;
+         height: 200px ;
+       
+         border-radius: 50%;
+    
+    }
+    
+  }
+  @media only screen and (min-width: 321px) and (max-width: 480px) {
+    .Image{
+        width: 200px;
+        height: 200px ;
+        border-radius: 50%;
+    
+    }
+    
+  }
+  
+  @media only screen and (max-width: 320px) {
+    .Image{
+        width: 80px;
+         height: 80px ;
+         border-radius: 20px;
+    
+    }
+    
+  }
+  
