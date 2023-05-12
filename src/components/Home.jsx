@@ -12,12 +12,13 @@ export const Home = () => {
     <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
       <div className="flex flex-col justify-center h-full w-full">
         <h2 className="text-5xl sm:text-5xl font-bold  text-white" >
-          Hi,I'm  <span style={{ color: "orange" }}>Suneet Panigrahi</span>
+          Hi, I'm  <span style={{ color: "orange" }}>Suneet Panigrahi,</span>
         </h2>
         <p className="py-4 max-w-md tracking-wide text-lg ">
-          <span className="text-5xl font-Big"> I am a</span>
-          <span className="text-[white] text-3xl font-Big">
+   
+          <span className="text-[white] text-3xl font-Big hidden sm:block" >
             <Typewriter
+            
               options={{
                 strings: [
                   "MERN Stack Web Developer",

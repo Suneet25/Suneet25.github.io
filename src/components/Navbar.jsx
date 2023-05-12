@@ -22,7 +22,7 @@ export const Navbar = () => {
     },
     {
       id: 4,
-      link: "experience",
+      link: "skills",
       title: "skills",
     },
     {
@@ -67,7 +67,7 @@ export const Navbar = () => {
 
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-3 z-10 text-white bg-#f4f5f6 sm:hidden"
+        className="cursor-pointer pr-3 z-10 text-white bg-black sm:hidden"
       >
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>

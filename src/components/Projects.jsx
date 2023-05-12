@@ -91,7 +91,7 @@ export const Projects = () => {
         <div className="w-full grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0">
           {portfolios.map(
             ({ id, src, nlink, glink, about, techstack, heading }) => (
-              <div 
+              <div div
                 key={id}
                 className="shadow-md shadow-gray-600 rounded-lg "
                 style={{
