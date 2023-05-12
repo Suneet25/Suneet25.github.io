@@ -3,6 +3,8 @@ import Coschedule from "../assests/Portfolio/Coschedule.png";
 import Fitnessblender from "../assests/Portfolio/Fitnessblender.png";
 import Flowers from "../assests/Portfolio/1800Flowers.png";
 import Zoomcar from "../assests/Portfolio/Zoomcar.png";
+import Awesomerce from "../assests/Portfolio/Awesomerce.png";
+import Fastaim from "../assests/Portfolio/Fastaim.png";
 
 export const Projects = () => {
   const portfolios = [
@@ -19,6 +21,16 @@ export const Projects = () => {
     },
     {
       id: 2,
+      heading: "Awesomerce",
+      src: Awesomerce,
+      glink: "https://github.com/Suneet25/miniEcommerce",
+      nlink: "https://awesomerce.vercel.app/",
+      about:
+        "It is an E-commerce website where you can buy Products etc. Product range include flowers, clocks,essentials etc.This is a individual project which i have build with in 5 days.",
+      techstack: "HTML || CSS || JAVASCRIPT || API || REACT || MONGO DB || EXPRESS || BRAINTREE || CHAKRA ",
+    },
+    {
+      id: 3,
       heading: "Zoomcar",
       src: Zoomcar,
       glink: "https://github.com/Suneet25/sick-insect-8581",
@@ -27,9 +39,20 @@ export const Projects = () => {
         "Zoomcar is an Indian car sharing platform, headquartered in Bangalore. It operate in Self Driving Car Rentals",
       techstack: "HTML || CSS || JAVASCRIPT || API || REACT || REDUX || CHAKRA",
     },
+    {
+      id: 4,
+      heading: "Fastaim",
+      src: Fastaim,
+      glink: "https://github.com/3003abhishek/auspicious-fog-5566",
+      nlink: "https://fast-aim-game.vercel.app/",
+      about:
+        "Fast Aim is a gaming Website that allows playing both Single Player and Multi-Player. This is a collaborative project; we completed this website in 3 days.",
+      techstack: "HTML || CSS || TYPESCRIPT || API || REACT || SOCKET.IO || CHAKRA",
+    },
+
 
     {
-      id: 3,
+      id: 5,
       heading: "Fitnessblender",
       src: Fitnessblender,
       glink: "https://github.com/Suneet25/loyal-elbow-6166",
@@ -40,7 +63,7 @@ export const Projects = () => {
     },
 
     {
-      id: 4,
+      id: 6,
       heading: "Coschedule",
       src: Coschedule,
       glink: "https://github.com/anirudha2097/fun-note-365",
@@ -68,7 +91,7 @@ export const Projects = () => {
         <div className="w-full grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0">
           {portfolios.map(
             ({ id, src, nlink, glink, about, techstack, heading }) => (
-              <div
+              <div 
                 key={id}
                 className="shadow-md shadow-gray-600 rounded-lg "
                 style={{
@@ -79,18 +102,26 @@ export const Projects = () => {
                   overflow: "hidden",
                 }}
               >
+                <div >
                 <img
                   src={src}
                   alt=""
                   className="rounded-md duration-500 hover:scale-105 "
                 />
+                </div>
+
+             
                 <div>
+                  <div>
                   <h3
                     style={{ textAlign: "center", marginTop: "20px" }}
-                    className="text-2xl px-4 py-4 cursor-pointer capitalize text-cyan-500 font-bold"
+                    className="text-2xl px-4 py-4 cursor-pointer capitalize text-orange-500 font-bold"
                   >
                     {heading}
                   </h3>
+                    </div>
+                    <div>
+
                   <p
                     style={{
                       marginTop: "20px",
@@ -100,6 +131,7 @@ export const Projects = () => {
                   >
                     {about}
                   </p>
+                    </div>
                 </div>
                 <div
                   style={{

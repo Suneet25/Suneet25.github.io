@@ -6,7 +6,7 @@ export const Contact = () => {
     <div
       name="contact"
       style={{ textAlign: "center"}}
-      className="w-full h-screen bg-black p-4 text-white pb-20"
+      className="w-full h-screen bg-black p-4 text-white pb-20 pt-20"
     >
       <div className="flex flex-col justify-center p-4 max-w-screen-lg mx-auto h-full">
         <div className="pb-8">

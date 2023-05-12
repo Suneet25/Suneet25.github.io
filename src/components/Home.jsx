@@ -11,7 +11,7 @@ export const Home = () => {
     <div name="Home" className="sm:h-screen w-full pt-24 bg-[black]">
     <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
       <div className="flex flex-col justify-center h-full w-full">
-        <h2 className="text-5xl sm:text-5xl font-bold tracking-wide text-white" >
+        <h2 className="text-5xl sm:text-5xl font-bold  text-white" >
           Hi,I'm  <span style={{ color: "orange" }}>Suneet Panigrahi</span>
         </h2>
         <p className="py-4 max-w-md tracking-wide text-lg ">
@@ -58,7 +58,7 @@ export const Home = () => {
           </div>
         </div>
 
-        <div className="mb-10  sm:mb-0 w-3/5  md:w-4/5 rounded-md " >
+        <div className="mb-10  w-2/5 md:w-3/5 sm:w-3/5 rounded-md " >
           <img
             className="rounded-md shadow-gray"
             src="https://avatars.githubusercontent.com/u/107473938?v=4"
