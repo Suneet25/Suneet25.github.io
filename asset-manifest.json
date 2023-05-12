@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.dcdd4e3c.css",
-    "main.js": "/static/js/main.dc89d3dc.js",
+    "main.css": "/static/css/main.a24ecf9b.css",
+    "main.js": "/static/js/main.cff264cb.js",
     "static/media/Zoomcar.png": "/static/media/Zoomcar.844b989da1d73aa748fe.png",
     "static/media/1800Flowers.png": "/static/media/1800Flowers.3728bb58dad28455dba9.png",
+    "static/media/Fastaim.png": "/static/media/Fastaim.cb5c134c21a4158cd3b8.png",
     "static/media/Fitnessblender.png": "/static/media/Fitnessblender.15dfd5c7501bf822ce46.png",
+    "static/media/Awesomerce.png": "/static/media/Awesomerce.0db645847e6f8fabf57a.png",
     "static/media/Coschedule.png": "/static/media/Coschedule.32f30645ab8c86da88bd.png",
     "static/media/mongodb.png": "/static/media/mongodb.4f7af09e6354d51beec8.png",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
@@ -13,16 +15,16 @@
     "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/tailwind.png": "/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
-    "static/media/expressjs.png": "/static/media/expressjs.667d92fdc12dd145a38b.png",
+    "static/media/expressjs.png": "/static/media/expressjs.b508473ad71a31ce2fae.png",
     "static/media/nodejs.png": "/static/media/nodejs.b508473ad71a31ce2fae.png",
     "static/media/mongoose.png": "/static/media/mongoose.abab5b627a2491a97298.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.dcdd4e3c.css.map": "/static/css/main.dcdd4e3c.css.map",
-    "main.dc89d3dc.js.map": "/static/js/main.dc89d3dc.js.map"
+    "main.a24ecf9b.css.map": "/static/css/main.a24ecf9b.css.map",
+    "main.cff264cb.js.map": "/static/js/main.cff264cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcdd4e3c.css",
-    "static/js/main.dc89d3dc.js"
+    "static/css/main.a24ecf9b.css",
+    "static/js/main.cff264cb.js"
   ]
 }
