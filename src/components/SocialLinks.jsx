@@ -51,7 +51,7 @@ export const SocialLinks = () => {
           <li key={id} className="flex flex-row justify-center  h-14 px-4 ">
             <a
               href={href}
-              className="flex  justify-between items-center w-full text-black"
+              className="bg-[black] flex  justify-between items-center w-full text-white"
               download={download}
               target="_blank"
               rel="noreferrer"

@@ -58,12 +58,12 @@ export const Tools = () => {
   return (
     <div
       name="tools"
-      className="bg-bg-#f4f5f6 w-full text-black md:h-screen"
-      style={{ marginTop: "50px", textAlign: "center" }}
+      className="bg-[black] w-full text-white md:h-screen"
+      style={{  textAlign: "center" }}
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-10">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+          <p className="text-4xl font-bold inline border-b-4 border-white-500">
             Tools
           </p>
           <p className="py-6"> These are the tools i have worked with</p>
@@ -73,7 +73,7 @@ export const Tools = () => {
           {tools.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`shadow-md shadow-gray-600 rounded-lg ${style}`}
+              className={`shadow-md shadow-white rounded-lg ${style}`}
               style={{
                 display: "flex",
                 flexDirection: "column",

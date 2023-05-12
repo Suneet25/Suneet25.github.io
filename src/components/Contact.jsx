@@ -5,8 +5,8 @@ export const Contact = () => {
   return (
     <div
       name="contact"
-      style={{ textAlign: "center", marginTop: "30px" }}
-      className="w-full h-screen bg-white p-4 text-black"
+      style={{ textAlign: "center"}}
+      className="w-full h-screen bg-black p-4 text-white pb-20"
     >
       <div className="flex flex-col justify-center p-4 max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
@@ -49,7 +49,7 @@ export const Contact = () => {
               rows="5"
               className="p-2 bg-transparent border-2 rounded-md text-black focus:outline-none"
             ></textarea>
-            <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md duration-300 hover:scale-125">
+            <button className="text-white bg-gradient-to-b from-orange-500 to-orange-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md duration-300 hover:scale-125">
               Let's Talk
             </button>
           </form>

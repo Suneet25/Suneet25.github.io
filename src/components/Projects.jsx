@@ -54,12 +54,12 @@ export const Projects = () => {
   return (
     <div
       name="projects"
-      className="bg-bg-#f4f5f6 w-full  text-black h-full "
-      style={{ marginTop: "30px", textAlign: "center" }}
+      className="bg-[black] w-full pt-20  text-white h-full "
+      style={{textAlign: "center" }}
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+          <p className="text-4xl font-bold inline border-b-4 border-white-500">
             Projects
           </p>
           <p className="py-6">Check out some of my work right here</p>
@@ -112,12 +112,12 @@ export const Projects = () => {
                 </div>
                 <div className="flex justify-center items-center">
                   <a href={nlink} target="_blank" rel="noreferrer">
-                    <button className=" m-4 duration-200 hover:scale-110 bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer py-2 px-4 rounded text-white ">
+                    <button className=" m-4 duration-200 hover:scale-110 bg-gradient-to-r from-orange-500 to-orange-500 cursor-pointer py-2 px-4 rounded text-white ">
                       Live Demo
                     </button>
                   </a>
                   <a href={glink} target="_blank" rel="noreferrer ">
-                    <button className=" m-4 duration-200 hover:scale-110 bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer py-2 px-4 rounded text-white ">
+                    <button className=" m-4 duration-200 hover:scale-110 bg-gradient-to-r from-orange-500 to-orange-500 cursor-pointer py-2 px-4 rounded text-white ">
                       Source Code
                     </button>
                   </a>
